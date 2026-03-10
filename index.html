@@ -24,34 +24,46 @@
   <h1>Programmerings håndbok - Overgang fra blokk- til tekstprogrammering</h1>
   <p>Velg trinn for opplegg.</p>
 
+<div class="panel">
+  
 <button class="knapp" onclick="location.href='8trinn.html'">8. Trinn</button>
 <button class="knapp" onclick="location.href='9trinn.html'">9. Trinn</button>
 <button class="knapp" onclick="location.href='10trinn.html'">10. Trinn</button>
 
   
 <style>
+body {
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#f3f4f6;
+}
+
+.panel {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:30px;
+  height:100vh;
+}
+
 .knapp {
-  display:inline-block;
-  padding:25px 30px;
+  padding:30px 40px;
   background:#4f46e5;
   color:white;
-  border:none;
+  text-decoration:none;
   border-radius:15px;
-  font-size:30px;
+  font-size:28px;
   font-weight:bold;
-  font-family:Arial, sans-serif;
   transition:all 0.2s ease;
-  cursor:pointer;
+  box-shadow:0px 4px 10px rgba(0,0,0,0.15);
 }
 
 .knapp:hover {
   background:#6366f1;
-  transform:translateY(-3px);
-  box-shadow:0px 6px 15px rgba(0,0,0,0.25);
+  transform:translateY(-5px);
+  box-shadow:0px 10px 20px rgba(0,0,0,0.25);
 }
 </style>
 
-
-  
 </body>
 </html>
