@@ -82,21 +82,11 @@ body {
 
 <div class="panel">
   
-<button class="knapp" onclick="sjekkpassord().href='likning-L.html'">For lærere</button>
+<button class="knapp" onclick="location.href='likning-L.html'">For lærere</button>
 <button class="knapp" onclick="location.href='likning-e.html'">For elever</button>
 
 
-<script>
-function sjekkpassord() {
-  let passord = prompt("Skriv inn passord:");
 
-  if (passord === "Håndbok") {
-    location.href = "likning-L.html";
-  } else if (passord !== null) {
-    alert("Feil passord.");
-  }
-}
-</script>
 
   
 <style>
